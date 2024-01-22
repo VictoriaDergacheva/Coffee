@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(../img/fon.jpg) center center no-repeat  fixed;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*Шапка*/
+
+#header {
+    height: 120px;
+    background-color: #644d4d;
+    background: url(../img/verh.webp) repeat-x center bottom;
+    background-size: 100%;
+}
+
+
+/*Верхняя навигационная панель*/
+
+
+.panel {
+    display: flex;
+    justify-content: center;
+}
+
+
+.panel>nav>ul {
+    list-style: none;
+    position: relative;
+}
+
+.panel>nav>ul>li {
+    display: inline-block;
+    position: relative;
+    float: left;
+    font: 50px Times New Roman;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0);
+    font-size: 16px;
+}
+
+.panel>nav>ul>li>a {
+    display: block;
+    padding: 30px;
+    border-bottom-style: solid;
+    border-bottom: 0;
+    border-width: 0.5px;
+    font-size: 30px;
+    text-decoration: none;
+    padding-top: 50px;
+}
+
+.panel>nav>ul>li>a {
+    color: #ffffff;
+    
+}
+.panel>nav>ul>li>a:hover {
+    color: #dbc412;
+}
+
+
+/*Выпадающий список*/
+
+* { box-sizing: border-box; }
+
+nav a {
+    display: block;
+    text-decoration: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    
+    
+}
+.one {
+    backface-visibility: hidden;
+    background: rgba(170, 32, 32, 0.8);
+}
+
+.one li a:hover {
+    color: #E6855F;
+}
+.two {
+    background: #321f04;
+    border: 0 solid rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+    width: 160px;
+    transform: perspective(600px) rotateX(-90deg);
+    transform-origin: 0% 0%;
+    transition: .6s ease-in-out;
+}
+.one > li:hover .two{
+    visibility: visible;
+    opacity: 1;
+    transform: perspective(600px) rotateX(0deg);
+}
+.two li a {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 36px;
+    padding: 0 25px;
+    font-family: 'Kurale', serif;
+}
+
+
+/*Меню*/
+
+
+.conteiner {
+    border: 3px rgba(255, 255, 255, 0) solid;
+    width: 900px;
+    border-bottom: 30px;
+    text-align: left;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin: auto;
+    margin-top: 30px;
+    background: #2f1e1933;
+    
+    box-shadow: 0 0 20px 4px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.foto {
+    display: inline-block;
+    margin: 20px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    background: #ffffff;
+    font: 15px Times New Roman;
+    font-weight: bold;
+}
+
+.main {
+    text-align: center; 
+}
+
+
+.foto>a>img {
+    width: 225px;
+    height: 260px;
+}
+
+h1 {
+    font: 50px Times New Roman;
+    font-weight: bold;
+    font-style: italic;
+    color: #110700;
+}
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
